@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "312226102574",
+    "firebase_url": "https://cpstalk.firebaseio.com",
+    "project_id": "cpstalk",
+    "storage_bucket": "cpstalk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312226102574:android:1c958aa0b10e80cb",
+        "android_client_info": {
+          "package_name": "com.example.android.cp_stalk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmfXAUC8inmHsnJuYp6e63pO-y9ONfpJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312226102574-m9dlg6sb8o9oad434ivjuu9v99pan51i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

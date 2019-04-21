@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b4d3d3"
+    >
+
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="694dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="694dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+
+                >
+
+                <TextView
+                    android:id="@+id/handle"
+                    android:layout_width="169dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="37dp"
+                    android:background="@drawable/back"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/rank"
+                    android:layout_width="167dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/handle"
+                    android:layout_marginStart="-2dp"
+                    android:layout_marginTop="106dp"
+                    android:textSize="25dp"
+                    android:background="@drawable/back"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/userpic"
+                    android:layout_width="139dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="26dp"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="82dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/handle"
+                    android:layout_marginTop="176dp"
+                    android:text="City"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="199dp"
+                    android:layout_height="33dp"
+                    android:layout_alignEnd="@+id/userpic"
+                    android:layout_alignTop="@+id/textView7"
+                    android:textSize="20dp"
+                    android:background="@drawable/back"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="82dp"
+                    android:layout_height="31dp"
+                    android:layout_alignStart="@+id/handle"
+                    android:layout_below="@+id/city"
+                    android:layout_marginTop="25dp"
+                    android:text="Country"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/country"
+                    android:layout_width="199dp"
+                    android:layout_height="29dp"
+                    android:layout_alignEnd="@+id/userpic"
+                    android:layout_alignTop="@+id/textView9"
+                    android:background="@drawable/back"
+                    android:textAlignment="center"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="84dp"
+                    android:layout_height="33dp"
+                    android:layout_alignStart="@id/handle"
+                    android:layout_below="@id/country"
+                    android:layout_marginTop="25dp"
+                    android:text="Rating"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="197dp"
+                    android:layout_height="29dp"
+                    android:layout_alignStart="@+id/city"
+                    android:layout_alignTop="@+id/textView11"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/back"/>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="113dp"
+                    android:layout_height="31dp"
+                    android:layout_alignStart="@+id/handle"
+                    android:layout_below="@id/rating"
+                    android:layout_marginTop="25dp"
+                    android:text="Max Rating"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/maxrating"
+                    android:layout_width="197dp"
+                    android:layout_height="29dp"
+                    android:layout_alignStart="@+id/city"
+                    android:layout_alignTop="@+id/textView13"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/back"/>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="139dp"
+                    android:layout_height="35dp"
+                    android:layout_alignStart="@+id/handle"
+                    android:layout_below="@id/maxrating"
+                    android:layout_marginTop="25dp"
+                    android:text="Solved Count"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/solvedcount"
+                    android:layout_width="192dp"
+                    android:layout_height="33dp"
+                    android:layout_alignTop="@+id/textView15"
+                    android:layout_toEndOf="@+id/handle"
+                    android:background="@drawable/back"
+                    android:textAlignment="center"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+
+                    android:layout_width="141dp"
+                    android:layout_height="32dp"
+                    android:layout_alignStart="@+id/handle"
+                    android:layout_below="@id/solvedcount"
+                    android:layout_marginTop="25dp"
+                    android:text="Problems"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+
+                    android:layout_width="141dp"
+                    android:layout_height="32dp"
+                    android:layout_alignStart="@+id/handle"
+                    android:layout_below="@id/piechart1"
+                    android:layout_marginTop="25dp"
+                    android:text="Languages"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+
+                    android:layout_width="141dp"
+                    android:layout_height="32dp"
+                    android:layout_alignStart="@+id/handle"
+                    android:layout_below="@id/piechart2"
+                    android:layout_marginTop="25dp"
+                    android:text="Tags"
+                    android:textSize="20dp" />
+
+                <WebView
+                    android:id="@+id/piechart1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@id/handle"
+                    android:layout_below="@id/textView17"
+                    android:layout_marginTop="25dp"
+
+                    ></WebView>
+
+                <WebView
+                    android:id="@+id/piechart2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/handle"
+                    android:layout_below="@id/textView18"
+                    android:layout_marginTop="25dp">
+
+                </WebView>
+
+                <WebView
+                    android:id="@+id/piechart3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@id/handle"
+                    android:layout_below="@id/textView19"
+                    android:layout_marginTop="25dp"
+
+                    ></WebView>
+
+            </RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>

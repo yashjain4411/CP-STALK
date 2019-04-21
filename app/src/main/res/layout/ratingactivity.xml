@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="94dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_marginStart="46dp"
+            android:text="User"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="94dp"
+            android:layout_height="32dp"
+            android:layout_alignEnd="@+id/adduser"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="59dp"
+            android:text="Rating"
+            android:textSize="25dp" />
+
+
+    <Button
+            android:id="@+id/adduser"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="21dp"
+            android:layout_marginEnd="32dp"
+            android:text="Add User" />
+
+        <EditText
+            android:id="@+id/addhandle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginStart="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter handle"
+            android:text="" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="572dp"
+        android:layout_above="@+id/adduser"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>
